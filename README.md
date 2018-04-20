@@ -16,4 +16,5 @@ npm run build
 
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+执行npm run build后在dist目录下生成最终编译后问文件，就可以直接在浏览器打开这些文件，点击页面底部打开index和打开index2即可切换inde.html和index2.html，页面跳转可使用<a href="index.html">打开index</a><br>，项目未引入其他路由等概念，尽量简化。
+项目适合只想使用vue进行组件化开发而不引入其他东西
